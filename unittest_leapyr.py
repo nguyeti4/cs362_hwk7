@@ -6,4 +6,5 @@ class Testleapyr(unittest.TestCase):
         self.assertEqual(leapyr.isleap(24),True)
     def test_div100(self):
         self.assertEqual(leapyr.isleap(200),False)
-   
+    def test_div200(self):
+        self.assertEqual(leapyr.isleap(800),True)
